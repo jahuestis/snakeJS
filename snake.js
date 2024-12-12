@@ -55,7 +55,7 @@ window.onload = function() {
     context = board.getContext("2d"); // used for drawing on the board
 
     document.addEventListener("keydown", changeDirection);
-    gameSession = startGameSession();
+    drawBackground();
 }
 
 function startGameSession() {
